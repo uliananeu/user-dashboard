@@ -52,7 +52,7 @@ const UserList: React.FC = () => {
         <button onClick={() => sortUsers('email')}>Sort by Email</button>
       </div>
       <div className={styles.cards}>
-        {filteredUsers.map(user => (
+        {filteredUsers.slice(0, 9).map(user => (  
           <UserCard key={user.id} user={user} />
         ))}
       </div>
