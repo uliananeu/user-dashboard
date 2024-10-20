@@ -16,3 +16,5 @@
    ```bash
    git clone https://github.com/your-username/user-dashboard.git
    cd user-dashboard
+   npm install
+   npm start
